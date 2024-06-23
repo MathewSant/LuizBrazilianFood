@@ -42,7 +42,7 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-	color: #43121d;
+	color: #006400;
 	font-family: 'Quicksand', sans-serif;
 	font-weight: 700;
 	margin: 0;
@@ -66,9 +66,7 @@ a {
 	color: #43121d;
 }
 
-a:hover {
-	color: #a82d49;
-}
+
 
 a, a:hover, a:focus, button, button:hover {
 	outline: 0;
@@ -224,36 +222,50 @@ ul, ol, li {
 }
 
 .navbar-lg .navbar-nav > li > a {
-	padding: 40px 12px 35px;
-	font-size: 15px;
-	line-height: 1.6;
-	color: #a82d49;
-	font-weight: 600;
-}
-.navbar-lg .navbar-nav > li > a:hover {
-	color: #a82d49;
+    padding: 40px 12px 35px;
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 600;
 }
 
+.page-scroll{
+	color: #006400 !important;
+}
+
+/* Estilização específica para navbar-login */
 .navbar-login {
-	margin-top: 6px;
-	margin-left: 10px;
+    margin-top: 6px;
+    margin-left: 10px;
 }
 
-.navbar-login a {
-	background: #a82d49;
-	color: #fff !important;
-	border: 3px solid #a82d49;
-	padding: 5px 23px !important;
-	font-weight: 800;
-	letter-spacing: 0.2px;
-	margin-top: 25px;
+.navbar-tel{
+    background: #006400;
+    color: #fff !important; 
+    border: 3px solid #006400;
+    padding: 5px 23px !important; 
+    font-weight: 800;
+    letter-spacing: 0.2px;
+    margin-top: 25px;
 }
 
-.navbar-login a:hover {
-	border: 3px solid #a82d49 !important;
-	background: transparent;
-	color: #a82d49 !important;
+.navbar-tel:hover {
+    background: transparent !important;
+    color: #ffc400 !important;
+    border: 3px solid #ffc400 !important;
 }
+
+.navbar-login a:focus {
+    background: transparent !important;
+    color: #006400 !important;
+    border: 3px solid #006400 !important;
+}
+
+.navbar-login a:active {
+    background: transparent !important;
+    color: #006400 !important;
+    border: 3px solid #006400 !important;
+}
+
 
 .dropdown-menu {
 	display: block !important;
@@ -482,7 +494,7 @@ ul, ol, li {
 .intro-about2 h3 {
 	font-size: 32px;
 	line-height:45px;
-	color:#43121d;
+	color:#002369;
 	font-weight:700;
 }
 .intro-about2 p{
@@ -716,15 +728,15 @@ box-shadow: 0px 2px 10px -1px rgba(0, 0, 0, 0.19);
 }
 
 .btn.btn-primary {
-	background: #a82d49;
-	border: 3px solid #a82d49;
+	background: #006400;
+	border: 3px solid #006400;
 	color: #fff;
 }
 
 .btn.btn-primary:hover {
-	border: 3px solid #a82d49 !important;
+	border: 3px solid #ffc400 !important;
  background: transparent;
- color: #a82d49;
+ color: #ffc400;
 }
 
 .btn.btn-default {
@@ -1051,7 +1063,7 @@ box-shadow: 0px 2px 10px -1px rgba(0, 0, 0, 0.19);
 }
 
 .about-inline h3 {
-	color: #43121d;
+	color: #002776;
 	margin-bottom: 15px;
 	font-size: 36px;
 	line-height: 46px;
@@ -2158,7 +2170,7 @@ footer .list-inline li {
 }
 
 .footer-copy {
-	background: #a82d49;
+	background: #006400;
 	padding-bottom: 50px;
 	text-align: center;
 	color: #fff;
@@ -2224,7 +2236,7 @@ footer .list-inline li {
 
 .price-new{
 	font-weight: bold;
-	color: #a82d49;
+	color: #006400;
 }
 
 .price-wrap h3{
@@ -2971,7 +2983,7 @@ input:focus, textarea:focus {
 }
 
 .footer2 {
-	background: #a82d49;
+	background: #006400;
 }
 
 .footer2 .google-map {
